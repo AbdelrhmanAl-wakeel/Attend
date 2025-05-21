@@ -1,6 +1,7 @@
 [build]
 builder = "nixpacks"
 nixpacksPlan = { name = "dotnet" }
+root = "AttendBackend"
 
 [deploy]
 start = "dotnet AttendBackend.dll"
