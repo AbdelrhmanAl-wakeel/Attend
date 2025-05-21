@@ -36,7 +36,7 @@ namespace AttendBackend
                 options.AddPolicy(name: MyAllowSpecificOrigins,
                                   policy =>
                                   {
-                                      policy.WithOrigins("http://localhost:4200,https://sederprize-ui2ce.ondigitalocean.app,https://localhost:8080")
+                                      policy.WithOrigins("http://localhost:4200", "http://localhost:8080", "https://sederprize-ui2ce.ondigitalocean.app")
                                             .AllowAnyHeader()
                                             .AllowAnyMethod();
                                   });
