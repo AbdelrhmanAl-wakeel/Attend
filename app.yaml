@@ -1,0 +1,8 @@
+name: attend-backend
+services:
+  - name: backend
+    environment_slug: dotnet
+    source_dir: AttendBackend
+    run_command: dotnet bin/Debug/net8.0/AttendBackend.dll
+    build_command: dotnet build
+    http_port: 5000
