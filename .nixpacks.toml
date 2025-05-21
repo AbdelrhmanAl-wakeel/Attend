@@ -2,7 +2,10 @@
 nixPkgs = ["dotnet-sdk_8"]
 
 [phases.build]
-cmds = ["dotnet restore", "dotnet build -c Release"]
+cmds = [
+  "dotnet restore",
+  "dotnet publish -c Release -o out"
+]
 
 [phases.start]
-cmd = "dotnet AttendBackend.dll"
+cmd = "dotnet out/AttendBackend.dll"

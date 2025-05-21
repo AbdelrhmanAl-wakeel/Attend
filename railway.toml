@@ -1,6 +1,3 @@
 [build]
 builder = "nixpacks"
-root = "AttendBackend"
-
-[deploy]
-start = "dotnet AttendBackend.dll"
+buildCommand = ""
