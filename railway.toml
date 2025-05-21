@@ -1,6 +1,5 @@
 [build]
 builder = "nixpacks"
-nixpacksPlan = { name = "dotnet", providers = ["dotnet@8.0"] }
 root = "AttendBackend"
 
 [deploy]
