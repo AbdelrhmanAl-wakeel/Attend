@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: attend
+    name: AttendBackend
     env: web
     buildCommand: dotnet build AttendBackend/AttendBackend.csproj
     startCommand: dotnet AttendBackend/bin/Debug/net8.0/AttendBackend.dll
