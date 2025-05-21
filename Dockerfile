@@ -17,6 +17,6 @@ WORKDIR /app
 COPY --from=build /app/publish .
 
 # Expose the port (match with Program.cs or launch settings)
-EXPOSE 8080
+EXPOSE 5095
 
 ENTRYPOINT ["dotnet", "AttendBackend.dll"]
