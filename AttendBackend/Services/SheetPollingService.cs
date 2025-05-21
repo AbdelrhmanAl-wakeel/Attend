@@ -44,6 +44,7 @@ namespace AttendBackend.Services
                         // assuming header columns: Name, PhoneNumber, Email (adjust indexes as needed)
                         for (int i = 1; i < rows.Count; i++)
                         {
+                            var id = i;
                             var row = rows[i];
                             var responseDate = row[0]?.ToString() ?? "";
                             var name = row[1]?.ToString() ?? "";
@@ -58,6 +59,7 @@ namespace AttendBackend.Services
 
                             db.AttendedUsers.Add(new AttendedUser
                             {
+                                Id =  id,
                                 ResponseDate= responseDate,
                                 PhoneNumber = phone,
                                 Name = name,
