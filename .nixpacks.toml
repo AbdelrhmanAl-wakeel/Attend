@@ -3,8 +3,8 @@ nixPkgs = ["dotnet-sdk_8"]
 
 [phases.build]
 cmds = [
-  "dotnet restore",
-  "dotnet publish -c Release -o out"
+  "dotnet restore AttendBackend/AttendBackend.csproj",
+  "dotnet publish AttendBackend/AttendBackend.csproj -c Release -o out"
 ]
 
 [phases.start]
