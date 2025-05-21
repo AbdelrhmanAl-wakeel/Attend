@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: attend-backend
+    env: web
+    buildCommand: dotnet build AttendBackend/AttendBackend.csproj
+    startCommand: dotnet AttendBackend/bin/Debug/net6.0/AttendBackend.dll
+    envVars:
+      - key: ConnectionStrings__DefaultConnection
+        value: "YourConnectionStringHere"
+    plan: free
+    branch: main
+    rootDirectory: AttendBackend
