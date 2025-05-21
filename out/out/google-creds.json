@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "attendapp-460019",
+  "private_key_id": "aeb5c3f55070274e68f48faf8612bbf2bc045510",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCfDu4cAe+jrD+g\nKKR+NP3ojINZCcz5unUhliqSCptBaaHxpoK5AcPXL2s4aWS3a1uosKtr1phaVnkG\nOsV+D4tFgi3IeLdYAXjK2X+Z4jk7Gm09DJI2Guj/pGUF/79In1vfKYVzlNyX2dfI\nLk8Y0Q4JwGU+ApJG6PbZ2CvDX7RmjiRyaZ5VteaQ2q2xrDFb2JoG4GTQBFut2kD2\nACjM0gTIKg1/609PJhXPAEFhrAfhnOX3gyepLqMGMWT1vmC56G1vVZmhnCHdHaur\ncUI2iNBhDCdVRzhOLUlof7HUEtEQDQAICrfS4ZwgcJFmi8VAgqHWRaQ/WGK142Nt\nK2IDZcQTAgMBAAECggEAFMzaBzWa8KzPgT1EuEXBHTkgMB5KUi9iWUBkVBwo+Mvn\nOU0MyUQu0nl0Abjen+cyjFkrgaWwNMLG1DFkBDvk0Eku0t7ecxbLhL4epAa5Hz6H\nIeBT+oQDC535oWg0ITtzGI2QfcXuIbmDhhJwQOQ4fBP56WW4BVKP0tB5y0nnszAX\nMcji3FVK6Agod6k8wprre0BDeoiqSmgM/bf5HzC3dRsBC4zGHn2GD1sW9z4dTY8a\npKVvzbhOB71vuuF1lQc6WGFvhh1C3ZIm1teLIZKkWRYjW77XiryDTM+T7t4rf7sX\n+nkfJB9f1LcKOV+Evs3yhTg4fexKABG8AsC+F6ypAQKBgQDYeMEFcTwFEQhyoaRs\nmESYmWc+T048gLNaZhaTAazOJsw9X3XusLUvzF5IYVKRdZWI6aG4ns3f6nXDKjwR\nVSYvHDjh6iJxM/DwkM7U6SJZyT/IV2CEmkOs27Da4S4NKu+qJlXBUgdMofM2W64b\nVdaGDALYU1byJsukO2QYaYhIkwKBgQC8GlCHnF/G4ACTJWgRhBK2rTbqa1wT1Vo3\nWUpUl2J35xSQ6gzCziUXNefo5rVO1+imjZMUen+iwdvO8xyTzWaW874FZ0J1zRQa\n9/QQVPvyjbo3aCyj3TY6bP/iebdIC4KlGeZ1uXEjUB/kiK2WsLuU63wRIKTaepwK\ndBkqyDtGgQKBgHQ6QckeR0+hGZwS1inIh+w3UYvPIP6zS5lZ/vznhVUa18aMHtIN\n5vrHDEhomOCo9aURbFeoTHnRdXFYl+/mfB4HVTNXdy646MEBv0vp8RusRqbW42fP\nPE7vlkGvbf578zq0Yo7t8CVhPykMiKr8p7ZJdK2Z8bEKy4Rerxu8bgQpAoGACk3O\nt38DaBuBLI5SAxOfCs62QWUcKCH5zSpg/f1E8ZiA8edAR7OPKJRVXda1e9or7mO2\n+No0/69q4Q1ENXx88Cvt7tHXPCi9vzRx9CsTmhfVaY+VUmydudmassdEGPg4cd7X\nVv+PiQWsmZI7IBQSUngL1cxZ+3XX8mKltkg9pwECgYAWarbEeAmIjF5Ob8Rcf+59\ny4JiIDoRcWG5n7WYuWwQOONkvwvTH/z5U34oCJwddJ1krkJaz1jhVNd3r9CsiWya\nC0E8eH50DFB0dcjW037808ZvQuqAzskO+clT7/WX34g/IPyv26M0yxzZpru45zgA\ny+aw2FomIfK6ZBcU4EFD8w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "attendapp-765@attendapp-460019.iam.gserviceaccount.com",
+  "client_id": "111651976407053462259",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/attendapp-765%40attendapp-460019.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
