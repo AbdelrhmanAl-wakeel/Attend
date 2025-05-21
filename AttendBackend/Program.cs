@@ -42,7 +42,9 @@ namespace AttendBackend
                                   });
             });
 
-            
+
+            builder.Services.AddControllersWithViews();
+
             var app = builder.Build();
 
             app.UseCors(MyAllowSpecificOrigins);
@@ -55,7 +57,13 @@ namespace AttendBackend
 
             app.UseHttpsRedirection();
 
-           
+
+            // Serve Angular static files
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+
+            app.UseRouting();
+
             app.UseAuthorization();
             app.MapControllers();
             var summaries = new[]
@@ -78,6 +86,7 @@ namespace AttendBackend
             .WithName("GetWeatherForecast")
             .WithOpenApi();
 
+            app.MapFallbackToFile("index.html");
             app.Run();
         }
     }
