@@ -1,12 +1,12 @@
 services:
   - type: web
-    name: attend-backend
+    name: attend
     env: web
     buildCommand: dotnet build AttendBackend/AttendBackend.csproj
-    startCommand: dotnet AttendBackend/bin/Debug/net6.0/AttendBackend.dll
+    startCommand: dotnet AttendBackend/bin/Debug/net8.0/AttendBackend.dll
     envVars:
       - key: ConnectionStrings__DefaultConnection
-        value: "YourConnectionStringHere"
+        value: "Server=CAIROGHOULPC\\SQLEXPRESS;Database=AttendDb;User ID=sqladmin;password=AttendDB123;Trusted_Connection=True;TrustServerCertificate=True;"
     plan: free
     branch: main
     rootDirectory: AttendBackend
