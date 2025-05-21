@@ -1,6 +1,6 @@
 [build]
 builder = "nixpacks"
-nixpacksPlan = "dotnet"
+nixpacksPlan = { name = "dotnet" }
 
 [deploy]
 start = "dotnet AttendBackend.dll"
